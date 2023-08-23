@@ -1,7 +1,7 @@
 const { S3Client, CreateBucketCommand, PutObjectCommand } = require("@aws-sdk/client-s3");
 require("dotenv").config();
-const { fs } = require('fs/promises');
-const { path } = require("path");
+const fs  = require('fs/promises');
+const path = require("node:path");
 
 const s3 = new S3Client({
     region: "auto",

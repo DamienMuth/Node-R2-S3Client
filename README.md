@@ -6,7 +6,7 @@ This is a test of a stock NodeJS app uploading a file on Disk to a Cloudflare R2
 
 ### Requirements
     - Must have NodeJS - npm installed  
-    - Must have a [Cloudflare Account](https://dash.cloudflare.com/login)
+    - Must have a Cloudflare Account(https://dash.cloudflare.com/login)
     - Run npm install after cloning to install dependencies
     
 ### Steps
